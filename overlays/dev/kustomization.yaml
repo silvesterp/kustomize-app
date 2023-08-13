@@ -16,4 +16,4 @@ configMapGenerator:
 - name: index-html-configmap
   behavior: replace
   files:
-  - generators/files/index.html
+  - ../generators/files/index.html
