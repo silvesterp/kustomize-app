@@ -18,3 +18,8 @@ configMapGenerator:
   behavior: create
   files:
   - files/index.html
+- name: conf-cred
+  behavior: create
+  literals:
+  - name: "user"
+    pass: "Zaq1234a"
