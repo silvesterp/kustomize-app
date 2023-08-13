@@ -12,8 +12,3 @@ generatorOptions:
   labels:
     fruit: apple
 
-configMapGenerator:
-- name: index-html-configmap
-  behavior: replace
-  files:
-  - index.html
