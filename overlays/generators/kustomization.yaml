@@ -23,3 +23,8 @@ configMapGenerator:
   literals:
   - name=user
   - pass=Zaq1234a
+secretGenerator:
+- name: new-secret
+  literals:
+  - name=value
+  - pass=password
