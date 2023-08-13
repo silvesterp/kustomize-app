@@ -11,7 +11,7 @@ patches:
 generatorOptions:
   labels:
     app: web-service
-    # disableNameSuffixHash: true
+  disableNameSuffixHash: true
 
 configMapGenerator:
 - name: index-html-configmap
